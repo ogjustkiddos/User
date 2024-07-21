@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Dashboard - @og_justkiddo</title>
+    <title>Dashboard - @og_justkiddos</title>
     <link rel="icon" type="image/png" sizes="500x500" href="assets/img/Logo.png">
     <link rel="icon" type="image/png" sizes="500x500" href="assets/img/Logo.png">
     <link rel="icon" type="image/png" sizes="500x500" href="assets/img/Logo.png">
@@ -58,6 +58,28 @@
                     </div>
                     <div class="d-sm-flex justify-content-between align-items-center mb-4">
                         <h4 class="text-center text-dark d-lg-flex justify-content-center justify-content-lg-center mb-0">Dashboard</h4>
+                    </div>
+                    <div class="d-sm-flex justify-content-between align-items-center mb-4">
+                        <p>Copy this link and send this link to earn money</p>
+
+<input type="text" value="#" id="myInput">
+<button onclick="myFunction()">Copy link</button>
+
+<script>
+function myFunction() {
+  // Get the text field
+  var copyText = document.getElementById("myInput");
+
+  // Select the text field
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+  // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText.value);
+  
+  // Alert the copied text
+}
+</script>
                     </div>
                     <div class="row">
                         <div class="col-md-6 col-xl-3 mb-4">
